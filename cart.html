@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PadmaShop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg menu_bg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="image/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            ক্যাটাগরি নির্বাচন
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="category.html">সকল ক্যাটাগরি</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">হোম</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            <ul style="align-items: center; padding: 15px;">
+                <a href="cart.html">
+                    <li style="color: white; text-align: center;">
+                        <i class="fa-solid fa-cart-shopping" style="font-size: 24px; display: block;"></i>
+                        আপনার শপিং
+                    </li>
+                </a>
+                <li style="color: white; text-align: center;">
+                    <i class="fa-solid fa-user" style="font-size: 24px; display: block;"></i>
+                    মতিন পাইকার
+                </li>
+                <li style="color: white; text-align: center;">
+                    <i class="fa-sharp-duotone fa-regular fa-flag" style="font-size: 24px;  display: block;"></i>
+                    ২০২৪ গণঅভ্যুত্থান
+                </li>
+
+                <li style="color: white; text-align: center;">
+                    <i class="fa-solid fa-bars"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div
+            style="max-width: 800px; background: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); margin: 50px auto;">
+            <h2
+                style="background: #007bff; color: white; padding: 15px; text-align: center; border-radius: 5px; font-weight: bold;">
+                🛒 আপনার কার্ট</h2>
+
+            <!-- কার্ট আইটেম তালিকা -->
+            <table class="table table-bordered text-center mt-4">
+                <thead class="table-dark">
+                    <tr>
+                        <th>পণ্য</th>
+                        <th>মূল্য</th>
+                        <th>পরিমাণ</th>
+                        <th>মোট</th>
+                        <th>অপশন</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>স্মার্টফোন</td>
+                        <td>১৫,১০০৳</td>
+                        <td>
+                            <input type="number" value="1" min="1"
+                                style="width: 60px; text-align: center; border: 1px solid #ccc; border-radius: 5px;">
+                        </td>
+                        <td>১৫,১০০৳</td>
+                        <td>
+                            <button
+                                style="background-color: red; color: white; border: none; padding: 5px 10px; border-radius: 5px;">✖</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>হেডফোন</td>
+                        <td>১,৫০০৳</td>
+                        <td>
+                            <input type="number" value="2" min="1"
+                                style="width: 60px; text-align: center; border: 1px solid #ccc; border-radius: 5px;">
+                        </td>
+                        <td>৩,০০০৳</td>
+                        <td>
+                            <button
+                                style="background-color: red; color: white; border: none; padding: 5px 10px; border-radius: 5px;">✖</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- মোট মূল্য -->
+            <div class="d-flex justify-content-between mt-4">
+                <h4>মোট মূল্য:</h4>
+                <h4 style="color: green;">১৮,১০০৳</h4>
+            </div>
+
+            <!-- বাটন -->
+            <div class="d-flex justify-content-between mt-4">
+                <button
+                    style="background-color: red; color: white; padding: 12px; width: 48%; border-radius: 5px; border: none;"><a
+                        href="index.html" style="color: white;">কার্ট খালি করুন</a></button>
+                <button
+                    style="background-color: green; color: white; padding: 12px; width: 48%; border-radius: 5px; border: none;"><a
+                        href="productform.html" style="color: white;">চেকআউট করুন</a></button>
+            </div>
+
+        </div>
+    </div>
+
+    <section id="contact" style="background: #f8f9fa; padding: 40px 0; border-top: 3px solid #149777;">
+        <div
+            style="max-width: 1200px; margin: auto; padding: 0 20px; display: flex; flex-wrap: wrap; justify-content: space-between;">
+
+            <!-- Left Side -->
+            <div style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+                <h3 style="color: #149777;">আমাদের পরিষেবা</h3>
+                <ul style="">
+                    <li>অফলাইন সেবা</li>
+                </ul>
+            </div>
+
+            <div style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+                <h3 style="color: #149777;">অ্যাডভেঞ্চার</h3>
+                <ul style="list-style: none; margin-left: -200px; display: block;">
+                    <li>সৈকত কার্যক্রম</li>
+                    <li>বানজি জাম্প</li>
+                    <li>ব্র্যান্ডিং</li>
+                    <li>অফলাইন ইভেন্ট</li>
+                </ul>
+            </div>
+
+            <div style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+                <h3 style="color: #149777;">আমাদের দেশ</h3>
+                <ul style="list-style: none; padding-right: 200px; display: block;">
+                    <li>বাংলাদেশ</li>
+                    <li>ভারত</li>
+                    <li>নেপাল</li>
+                    <li>মালদ্বীপ</li>
+                </ul>
+            </div>
+
+            <!-- Right Side -->
+            <div style="flex: 1; min-width: 300px; margin-bottom: 20px;">
+                <h3 style="color: #149777;">যোগাযোগ করুন</h3>
+                <h2 style="margin-bottom: 10px;">আলোচনা করুন <i class="fa-solid fa-arrow-right-long"></i></h2>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <input type="email" placeholder="আপনার ইমেইল লিখুন"
+                        style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                    <button type="submit"
+                        style="background: #149777; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer;">পাঠান!</button>
+                    <i class="fa-regular fa-envelope" style="color: #149777; font-size: 20px;"></i>
+                </div>
+                <h4 style="margin-top: 30px;">Number: +8800000000000</h4>
+                <h4>Mail: exmple@gmail.cpm</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap js file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
