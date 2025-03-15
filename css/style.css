@@ -315,12 +315,17 @@ a {
     }
 
     .rightmenu .menutwo {
-        margin-left: -230px !important;
+        margin-left: -255px !important;
         margin-top: 40px !important;
     }
 
     .banneritem {
         display: block !important;
+    }
+
+    .banneritemup {
+        width: 100% !important;
+
     }
 
     .main_down {
@@ -383,12 +388,12 @@ a {
     }
 
     #content {
-        margin-top: 3500px;
+        margin-top: 3960px;
         position: absolute;
     }
 
     #contact {
-        margin-top: 3860px;
+        margin-top: 4300px;
         position: absolute;
     }
 
