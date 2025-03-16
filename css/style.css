@@ -387,14 +387,18 @@ a {
         font-size: 12px !important;
     }
 
-    #content {
+    /* #content {
         margin-top: 3960px;
-        position: absolute;
+        position: relative;
     }
 
     #contact {
         margin-top: 4300px;
-        position: absolute;
+        position: relative;
+    } */
+
+    #trending {
+        
     }
 
 }
