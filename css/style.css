@@ -295,6 +295,17 @@ a {
     }
 }
 
+@media (min-width: 375px) and (max-width: 575px) {
+    .menu_bg img {
+        margin-left: -45%;
+    }
+
+    .navbar-toggler {
+        margin-top: -50px;
+        margin-left: 70%;
+    }
+}
+
 /* Small devices (phones, less than 576px) */
 @media (max-width: 575px) {
     .navbar-toggler {
@@ -320,12 +331,9 @@ a {
     .menu_bg ul li {
         text-align: left;
     }
-
     .menu_bg img {
-        padding-left: 5%;
+        margin-left: -60%;
     }
-
-
     .rightmenu {
         margin-left: -35px;
         margin-top: 30px !important;
@@ -340,7 +348,7 @@ a {
         display: block !important;
     }
 
-    .bth{
+    .bth {
         display: none !important;
     }
 
@@ -374,8 +382,9 @@ a {
     .treding_main {
         height: 2000px;
     }
+
     .treding_main2 {
-      
+
         background-color: #A0D2EB;
     }
 
