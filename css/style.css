@@ -297,6 +297,10 @@ a {
 
 /* Small devices (phones, less than 576px) */
 @media (max-width: 575px) {
+    .navbar-toggler {
+        border: none !important;
+    }
+
     .navbar-toggler:focus {
         box-shadow: 0 0 transparent !important;
     }
@@ -305,9 +309,22 @@ a {
         margin-left: -7px !important;
     }
 
+    .dbar {
+        display: block !important;
+    }
+
+    .extraicon {
+        color: white !important;
+    }
+
     .menu_bg ul li {
         text-align: left;
     }
+
+    .menu_bg img {
+        padding-left: 5%;
+    }
+
 
     .rightmenu {
         margin-left: -35px;
@@ -321,6 +338,10 @@ a {
 
     .banneritem {
         display: block !important;
+    }
+
+    .bth{
+        display: none !important;
     }
 
     .banneritemup {
@@ -353,9 +374,14 @@ a {
     .treding_main {
         height: 2000px;
     }
+    .treding_main2 {
+      
+        background-color: #A0D2EB;
+    }
 
-    #treding2{
+    #treding2 {
         height: 6000px !important;
+
     }
 
     .main_down2 {
@@ -452,9 +478,13 @@ a {
         font-size: 12px !important;
     }
 
-  #contact ul li{
-margin-left: -30px;
-  }
+    #contact ul li {
+        margin-left: -30px;
+    }
+
+    .carttable {
+        width: 50% !important;
+    }
 
 }
 
