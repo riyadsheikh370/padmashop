@@ -20,6 +20,11 @@ a {
     background-color: #149777 !important;
 }
 
+nav {
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 5px 0px rgba(221, 219, 219, 0.75);
+}
 
 .treding_main {
     height: 500px;
@@ -295,6 +300,10 @@ a {
     }
 }
 
+.main_down2u {
+    padding-left: 10px;
+}
+
 @media (min-width: 375px) and (max-width: 575px) {
     .menu_bg img {
         margin-left: -45%;
@@ -310,6 +319,8 @@ a {
 @media (max-width: 575px) {
     .navbar-toggler {
         border: none !important;
+        display: block !important;
+        display: flex !important;
     }
 
     .navbar-toggler:focus {
@@ -322,6 +333,9 @@ a {
 
     .dbar {
         display: block !important;
+        -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 1px 3px 0px rgba(221, 219, 219, 0.75);
     }
 
     .extraicon {
@@ -331,9 +345,11 @@ a {
     .menu_bg ul li {
         text-align: left;
     }
+
     .menu_bg img {
         margin-left: -60%;
     }
+
     .rightmenu {
         margin-left: -35px;
         margin-top: 30px !important;
@@ -388,6 +404,7 @@ a {
         background-color: #A0D2EB;
     }
 
+
     #treding2 {
         height: 6000px !important;
 
@@ -400,6 +417,17 @@ a {
 
     .main_down2u {
         width: 100% !important;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+    }
+    .main_down3u {
+        width: 100% !important;
+      
+    }
+
+    .extraitem {
+        display: block !important;
     }
 
     .down_one1 {
@@ -408,12 +436,13 @@ a {
         -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
         padding-left: 10px;
-        border-radius: 20px;
-        margin-bottom: 30px;
+        border-radius: 5px;
+        background-color: white;
     }
 
     .down_one1 img {
         width: 100% !important;
+        padding: 15px;
     }
 
     .down_one1 h3 {
@@ -425,12 +454,19 @@ a {
         font-size: 12px !important;
     }
 
-    .categorymenu ul {
-        display: block !important;
-        padding-left: 10% !important;
+    .categorymenu {
+        display: none !important;
     }
 
-    .categorymenuone {
+    .menubtnhide {
+        display: none !important;
+    }
+
+    .categorysite {
+        display: none !important;
+    }
+
+    .categorymenuone1 {
         width: 100% !important;
     }
 
@@ -447,21 +483,31 @@ a {
     }
 
     .categorysite {
-        width: 60% !important;
+        display: none !important;
+        background-color: #A0D2EB;
+    }
 
+    #treding2 {
+        height: 5420px !important;
+        background-color: #A0D2EB;
     }
 
     .treding_main3 {
         width: 100% !important;
+        background-color: #A0D2EB;
     }
 
     .main_down3 {
         display: block !important;
         justify-content: space-between;
+        margin-bottom: 0px !important;
     }
 
     .main_down3u {
         width: 100% !important;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
     }
 
     .down_one3 {
@@ -470,12 +516,13 @@ a {
         -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
         padding-left: 10px;
-        border-radius: 20px;
-        margin-bottom: 30px;
+        border-radius: 5px;
+        background-color: white;
     }
 
     .down_one3 img {
         width: 100% !important;
+        padding: 15px;
     }
 
     .down_one3 h3 {
@@ -487,12 +534,37 @@ a {
         font-size: 12px !important;
     }
 
+    .down_one3 {
+        padding-bottom: 3px;
+    }
+
     #contact ul li {
         margin-left: -30px;
     }
 
     .carttable {
         width: 50% !important;
+    }
+
+    .custom-btnn {
+        background-color: #01BEFF;
+        border-radius: 20px;
+        color: white;
+        font-size: 16px;
+        padding: 7px 0px;
+        cursor: pointer;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    .custom-btnn:hover {
+        background-color: white;
+        color: #FB692C;
+        border: 1px solid #FB692C;
+    }
+
+    .categorayupboth22{
+        display: none !important;
     }
 
 }
