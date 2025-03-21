@@ -421,9 +421,10 @@ nav {
         padding-right: 10px;
         padding-bottom: 15px;
     }
+
     .main_down3u {
         width: 100% !important;
-      
+
     }
 
     .extraitem {
@@ -488,7 +489,7 @@ nav {
     }
 
     #treding2 {
-        height: 5420px !important;
+        height: 5300px !important;
         background-color: #A0D2EB;
     }
 
@@ -563,7 +564,27 @@ nav {
         border: 1px solid #FB692C;
     }
 
-    .categorayupboth22{
+    .categorayupboth22 {
+        display: none !important;
+    }
+
+    .pdp {
+        display: block !important;
+    }
+
+    .pdu {
+        width: 100% !important;
+    }
+    .pdm {
+        width: 100% !important;
+    }
+    .pdd {
+        width: 100% !important;
+    }
+    .btncart {
+        width: 100% !important;
+    }
+    .btncart2 {
         display: none !important;
     }
 
