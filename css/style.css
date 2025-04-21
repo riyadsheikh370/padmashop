@@ -318,8 +318,8 @@ nav {
 /* Small devices (phones, less than 576px) */
 @media (max-width: 575px) {
     .container {
-        width: 105% !important;
-        margin-left: -10px !important;
+        width: 106% !important;
+           margin-left: -12px !important;
     }
 
     .navbar-toggler {
@@ -726,8 +726,8 @@ nav {
 @media (min-width: 576px) and (max-width: 767px) {
     body {
         .container {
-            width: 105% !important;
-            margin-left: -10px !important;
+            width: 150% !important;
+        
         }
     
         .navbar-toggler {
